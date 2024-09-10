@@ -84,8 +84,6 @@ Fill out the [attribution attestation form for A1](https://docs.google.com/forms
 
 Using CSS frameworks like Bootstrap, Bulma, etc. counts as "incorporating code or content found on-line".
 
-Fill out the following information (edit this ReadMe):
-
-First and Last Name: [Your first and last name]
+First and Last Name: Robert Battle
 
 Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-robertwbattle/
