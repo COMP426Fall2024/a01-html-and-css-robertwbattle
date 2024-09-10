@@ -4,27 +4,26 @@
 
 
 button.hidden-until-hover {
-    color:transparent;
     background-color: transparent;
     border:none;
-    
+    color:transparent;
 }
 
 button.hidden-until-hover:hover {
-    color:initial;
     background-color: initial;
     border:initial;
+    color:initial;
 }
 
 .nav {
+    list-style-type: none;
     margin: 1vw;
     padding: 1vh;
-    list-style-type: none;
 }
 
 a:visited, li {
-    text-decoration: none;
     color:inherit;
+    text-decoration: none;
 }
 
 body {
@@ -63,35 +62,34 @@ body {
     color: white;
 }
 
-
-#real-table th{
-    padding: 2vh;
+.real-table th {
     border: 1px solid;
+    padding: 2vh;
 }
 
-#real-table td {
-    padding: 2vw;
+.real-table td {
     border: 1px solid;
+    padding: 2vw;
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
 
 /* make sure each item fits in its cell */
 .gallery-image, .gallery-item {
-    width: 20vw;
     height: 25vh;
     object-fit:cover;
+    width: 20vw;
 }
 
 /* make sure they are positioned right and specify the transition */
 .gallery-item-cont {
-    width: 100%;
     height: 100%;
-    text-align: center;
     position: relative;
-
-    transition: all 0.45s;
+    text-align: center;
     transform-style: preserve-3d; /* keeps in same plane */
+    transition: transform 0.45s;
+    width: 100%;
+   
 }
 
 /* when the item is hovered on, transform the container */
@@ -103,8 +101,8 @@ body {
 }
 
 .gallery-item-front, .gallery-item-back {
-    position: absolute; /* stay in place */
     backface-visibility: hidden; /* dont show the other image flipped */
+    position: absolute; /* stay in place */
 }
 
 .classical-font {
