@@ -112,3 +112,7 @@ body {
     font-variant: small-caps;
     font-weight: 600;
 }
+
+.comic-sans {
+    font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; 
+}
