@@ -44,6 +44,36 @@ body {
     padding: 1vh;
 }
 
+.dne {
+    background-color: green;
+    color: white;
+}
+
+.exists {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+.exists a:link {
+    color: white;
+}
+
+.exists a:visited {
+    color: white;
+}
+
+
+#real-table th{
+    padding: 2vh;
+    border: 1px solid;
+}
+
+#real-table td {
+    padding: 2vw;
+    border: 1px solid;
+}
+
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform */
 
 /* make sure each item fits in its cell */
